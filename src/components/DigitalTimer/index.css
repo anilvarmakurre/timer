@@ -1,0 +1,123 @@
+.bg-container {
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #defafe, #cffcf1);
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70vw;
+  height: 80vh;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+.right-top-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+.right-top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+.right-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+.right-bottom-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+}
+.timer-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.timer-container {
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  margin: 0px;
+  font-size: 35px;
+  color: #00d9f5;
+}
+.timer-para {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.timer-image {
+  width: 50px;
+  height: 50px;
+}
+.min-button {
+  font-size: 25px;
+  font-weight: 600;
+  border-style: none;
+  background-color: transparent;
+}
+.max-button {
+  font-size: 25px;
+  font-weight: 600;
+  border-style: none;
+  background-color: transparent;
+}
+.timer-clock {
+  font-size: 25px;
+  padding: 5px 20px;
+  background-image: linear-gradient(to right, #00d9f5, #cffcf1);
+  border-radius: 10px;
+}
+.right-bottom-para {
+  font-weight: 500;
+}
+.play-pause {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.timer-button {
+  background-color: transparent;
+  border-style: none;
+}
