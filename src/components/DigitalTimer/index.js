@@ -60,23 +60,6 @@ class DigitalTimer extends Component {
     console.log(status)
   }
 
-  //     if (timerMin > 0) {
-  //       if (timerSec > 0) {
-  //         this.setState(prevState => ({
-  //           timerSec:
-  //             status === false ? prevState.timerSec : prevState.timerSec - 1,
-  //         }))
-  //       } else if (timerSec === 0) {
-  //         this.setState(prevState => ({
-  //           timerMin: prevState.timerMin - 1,
-  //         }))
-  //       }
-
-  //       this.timerID = setInterval(this.tick, 1000)
-  //     } else {
-  //       clearInterval(this.timerID)
-  //     }
-  //   }
 
   onResetButton = () => {
     this.setState({
